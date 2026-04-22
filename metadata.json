@@ -1,0 +1,8 @@
+{
+  "name": "PaySecure India",
+  "description": "PaySecure India - Smart Banking System full-stack React application with real-time transaction simulator.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": []
+}

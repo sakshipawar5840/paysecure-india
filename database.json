@@ -1,0 +1,33 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "email": "admin@securebank.com",
+      "password": "$2b$10$QKqsWZgGbHhD2vNTmXVisO0mmvA.SfxOPLGuisDfzpLI9IjriThCy",
+      "role": "ADMIN"
+    },
+    {
+      "id": 2,
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "$2b$10$lI/8QbVPzvuoAXZqCFgs.OKvya3XWhwacOCawaUlzkJG9MRYh5XFK",
+      "role": "USER"
+    }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "userId": 2,
+      "accountNumber": "SB2891106586",
+      "balance": 150000,
+      "isFrozen": false
+    }
+  ],
+  "transactions": [],
+  "notifications": [],
+  "nextUserId": 3,
+  "nextAccountId": 2,
+  "nextTxId": 1,
+  "nextNotifId": 1
+}
